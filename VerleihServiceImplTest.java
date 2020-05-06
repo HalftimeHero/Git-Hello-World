@@ -113,6 +113,7 @@ public class VerleihServiceImplTest
     @Test
     public void testsFuerVerleihen()
     {
+        //erstellt zwei Listen. Eine mit ausgeliehenen Medien und eine mit Medien welche man ausleihen kann
         List<Medium> _sindVerliehen = _medienbestand.getMedien()
             .subList(0, 2);
         List<Medium> _sindNichtVerliehen = _medienbestand.getMedien()
