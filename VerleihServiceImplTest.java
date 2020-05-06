@@ -45,7 +45,7 @@ public class VerleihServiceImplTest
     // Alle Testmethoden erhalten die Annotation @Test. Dafür müssen diese nicht
     // mehr mit test im Namen beginnen. Dies wird jedoch aus Gewohnheit
     // oft weiter verwendet.
-    public void testKundenstamm()
+    public void testKundenstamm() 
     {
         assertTrue(_verleihService.kundeImBestand(_homer));
         assertTrue(_verleihService.kundeImBestand(_roger));
